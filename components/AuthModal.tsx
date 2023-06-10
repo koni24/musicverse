@@ -39,7 +39,7 @@ import { useEffect } from "react";
         <Auth 
         theme="dark"
         magicLink
-        providers={["github"]}
+        providers={["github","google"]}
           supabaseClient={supabaseClient}
           appearance={{
             theme: ThemeSupa,
